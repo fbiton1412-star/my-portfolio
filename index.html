@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- เรียกใช้งาน Tailwind CSS v4 สำหรับจัดดีไซน์หน้าเว็บให้ทันสมัย -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body class="bg-[#0A0A0A] text-gray-100 font-sans antialiased selection:bg-[#E25C24] selection:text-white">
+
+    <!-- 1. NAVBAR -->
+    <nav class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center sticky top-0 bg-[#0A0A0A]/80 backdrop-blur-md z-40">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gray-800 border border-gray-700 overflow-hidden flex items-center justify-center text-lg">👨‍💻</div>
+            <span class="font-bold text-sm tracking-wide uppercase hidden sm:inline">My Portfolio</span>
+        </div>
+        <div class="hidden md:flex items-center gap-8 text-sm text-gray-400 font-medium">
+            <a href="#" class="text-white hover:text-[#E25C24] transition">Home</a>
+            <a href="#skills" class="hover:text-[#E25C24] transition">Skills</a>
+            <a href="#portfolio" class="hover:text-[#E25C24] transition">Portfolio</a>
+        </div>
+        <a href="https://github.com" target="_blank" class="px-5 py-2 bg-[#E25C24] hover:bg-[#c94f1d] text-white text-xs font-bold uppercase rounded-lg tracking-wider transition">
+            My GitHub
+        </a>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <header class="max-w-6xl mx-auto px-6 pt-16 pb-24 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+        <!-- ฝั่งซ้าย: ข้อความทักทายและรายละเอียด -->
+        <div class="md:col-span-7 order-2 md:order-1 text-center md:text-left">
+            <span class="text-sm font-semibold text-[#E25C24] tracking-wide">Hi I am</span>
+            <h1 class="text-4xl md:text-5xl font-black mt-2 mb-1 tracking-tight text-white">fbiton1412-star</h1>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-[#E25C24] mb-6">UI/UX & Graphic Designer</h2>
+            <p class="text-gray-400 font-light leading-relaxed max-w-xl mb-8">
+                ยินดีต้อนรับสู่พอร์ตโฟลิโอส่วนตัวของผม พื้นที่รวบรวมงานออกแบบดิจิทัลโปรดักส์ เคสสตัดี้ และการจัดวาง Layout ที่ผสมผสานความสวยงามและการใช้งานที่ตอบโจทย์อย่างลงตัว
+            </p>
+            
+            <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                <a href="#portfolio" class="px-6 py-3 bg-[#E25C24] hover:bg-[#c94f1d] text-white text-sm font-bold rounded-xl transition shadow-lg shadow-[#E25C24]/20">
+                    ดูผลงานของผม
+                </a>
+            </div>
+        </div>
+
+        <!-- ฝั่งขวา: รูปโปรไฟล์ของคุณที่จะแสดงผลอัตโนมัติ -->
+        <div class="md:col-span-5 order-1 md:order-2 flex justify-center">
+            <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-[#E25C24]/30 overflow-hidden shadow-2xl shadow-[#E25C24]/10 bg-gray-900 flex items-center justify-center">
+                <img src="profile.jpg" alt="Profile" class="w-full h-full object-cover onerror-replace">
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="bg-[#0F0F0F] border-t border-gray-900 py-24">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black text-white mb-2">My Skills</h2>
+            <p class="text-gray-500 text-sm max-w-xl mx-auto mb-16 font-light">
+                ทักษะและความสามารถที่นำมาใช้รังสรรค์ชิ้นงานการดีไซน์
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <!-- การ์ดทักษะ 1 -->
+                <div class="bg-[#141414] p-8 rounded-2xl border border-gray-900/60 hover:border-[#E25C24]/40 transition group">
+                    <div class="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center text-lg text-[#E25C24] mb-6 border border-gray-800">🎨</div>
+                    <h3 class="text-lg font-bold text-white mb-3 group-hover:text-[#E25C24] transition">Graphic Design</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed font-light">จัดวางองค์ประกอบศิลป์ คุมโทนสี และเลือกใช้ภาพประกอบที่ช่วยดึงดูดสายตาและสื่อสารอารมณ์ของแบรนด์ได้อย่างทรงพลัง</p>
+                </div>
+                <!-- การ์ดทักษะ 2 -->
+                <div class="bg-[#141414] p-8 rounded-2xl border border-gray-900/60 hover:border-[#E25C24]/40 transition group">
+                    <div class="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center text-lg text-[#E25C24] mb-6 border border-gray-800">📱</div>
+                    <h3 class="text-lg font-bold text-white mb-3 group-hover:text-[#E25C24] transition">UI/UX Layout</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed font-light">ออกแบบลำดับข้อมูลบนหน้าจอให้ผู้ใช้งานสามารถเข้าถึงเนื้อหาที่ต้องการได้อย่างสะดวก รวดเร็ว และสร้างความพึงพอใจสูงสุด</p>
+                </div>
+                <!-- การ์ดทักษะ 3 -->
+                <div class="bg-[#141414] p-8 rounded-2xl border border-gray-900/60 hover:border-[#E25C24]/40 transition group">
+                    <div class="w-10 h-10 rounded-lg bg-gray-900 flex items-center justify-center text-lg text-[#E25C24] mb-6 border border-gray-800">🏎️</div>
+                    <h3 class="text-lg font-bold text-white mb-3 group-hover:text-[#E25C24] transition">Automotive Concept</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed font-light">สร้างสรรค์สื่อแนวดีไซน์ร่วมสมัยสำหรับยานยนต์ ดึงเสน่ห์ความแรงระดับซูเปอร์คาร์มาถ่ายทอดลงบนงานดิจิทัลอาร์ต</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PORTFOLIO GRID SECTION -->
+    <section id="portfolio" class="max-w-6xl mx-auto px-6 py-24">
+        <h2 class="text-2xl font-bold mb-8 text-gray-300 flex items-center gap-2">
+            <span class="w-2 h-6 bg-[#E25C24] rounded-full"></span> ผลงานเด่นของฉัน (Selected Projects)
+        </h2>
+        
+        <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- ข้อมูลโปรเจกต์จากฐานข้อมูล JSON จะเข้ามาแสดงตรงนี้โดยอัตโนมัติ -->
+        </div>
+    </section>
+
+    <!-- INTERACTIVE POP-UP MODAL (หน้าต่างดูสไลด์รูปและเปิด PDF ผลงาน) -->
+    <div id="interactive-modal" class="fixed inset-0 bg-black/90 backdrop-blur-xl z-50 hidden flex items-center justify-center p-4 transition-all duration-300">
+        <div class="bg-[#141414] w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl border border-gray-800 flex flex-col md:flex-row h-[85vh] md:h-[60vh]">
+            <!-- ฝั่งซ้าย: โชว์ภาพหน้าปกชิ้นงาน -->
+            <div class="w-full md:w-3/5 bg-black flex items-center justify-center relative p-4 h-1/2 md:h-full">
+                <img id="modal-active-img" src="" class="max-w-full max-h-full rounded-xl object-contain">
+            </div>
+            <!-- ฝั่งขวา: รายละเอียดข้อความและปุ่มกดอ่านผลงาน 12 หน้า -->
+            <div class="w-full md:w-2/5 p-6 md:p-8 flex flex-col justify-between border-t md:border-t-0 md:border-l border-gray-900 h-1/2 md:h-full">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span id="modal-project-cat" class="text-xs font-semibold px-2.5 py-1 rounded bg-[#E25C24]/10 text-[#E25C24] border border-[#E25C24]/20 uppercase">Category</span>
+                        <button onclick="closeInteractiveModal()" class="text-gray-400 hover:text-white bg-gray-900 p-1.5 rounded-full transition w-8 h-8 flex items-center justify-center text-sm cursor-pointer">✕</button>
+                    </div>
+                    <h3 id="modal-project-title" class="text-2xl font-black text-white mb-3">Project Title</h3>
+                    <p id="modal-project-desc" class="text-gray-400 text-xs leading-relaxed font-light overflow-y-auto max-h-[15vh]">Description...</p>
+                </div>
+                <div class="mt-4">
+                    <a id="modal-pdf-btn" href="" target="_blank" class="w-full text-center py-4 bg-[#E25C24] hover:bg-[#c94f1d] text-white font-medium rounded-xl transition duration-300 block text-sm tracking-wide shadow-lg shadow-[#E25C24]/20">
+                        เปิดดูเอกสารผลงานเต็มรูปแบบ (PDF) ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- สคริปต์ควบคุมการดึงข้อมูลฐานข้อมูล -->
+    <script>
+        async function loadPortfolio() {
+            try {
+                const response = await fetch('projects.json');
+                const projects = await response.json();
+                const grid = document.getElementById('portfolio-grid');
+                
+                grid.innerHTML = projects.map((project, index) => {
+                    const gridSpan = index === 0 ? 'md:col-span-2' : 'md:col-span-1';
+                    const projectStr = encodeURIComponent(JSON.stringify(project));
+                    
+                    return `
+                        <div onclick="openInteractiveModal('${projectStr}')" class="${gridSpan} bg-[#141414] rounded-2xl overflow-hidden border border-gray-900/60 hover:border-[#E25C24]/40 transition-all duration-300 group flex flex-col justify-between cursor-pointer">
+                            <div>
+                                <div class="overflow-hidden relative h-52 md:h-64 bg-gray-950">
+                                    <img src="${project.image_url}" alt="${project.title}" class="w-full h-full object-cover group-hover:scale-102 transition duration-500 opacity-90">
+                                    <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium text-[#E25C24] border border-white/10">
+                                        ${project.category}
+                                    </div>
+                                </div>
+                                <div class="p-6 md:p-8">
+                                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-[#E25C24] transition">${project.title}</h3>
+                                    <p class="text-gray-400 text-xs leading-relaxed font-light line-clamp-2">${project.description}</p>
+                                </div>
+                            </div>
+                            <div class="px-6 pb-6 md:px-8 md:pb-8 text-right text-xs text-[#E25C24] font-medium group-hover:translate-x-1 transition duration-200">
+                                คลิกเพื่อเปิดอ่านรายละเอียดงาน →
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function openInteractiveModal(projectJsonString) {
+            const project = JSON.parse(decodeURIComponent(projectJsonString));
+            document.getElementById('modal-project-title').innerText = project.title;
+            document.getElementById('modal-project-cat').innerText = project.category;
+            document.getElementById('modal-project-desc').innerText = project.description;
+            document.getElementById('modal-active-img').src = project.image_url;
+            document.getElementById('modal-pdf-btn').href = project.pdf_url;
+
+            document.getElementById('interactive-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeInteractiveModal() {
+            document.getElementById('interactive-modal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.querySelectorAll('.onerror-replace').forEach(img => {
+            img.onerror = function() {
+                this.style.display = 'none';
+                this.parentElement.innerHTML = '<span class="text-6xl">👨‍💻</span>';
+            };
+        });
+
+        loadPortfolio();
+    </script>
+</body>
+</html>
