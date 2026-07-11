@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- เรียกใช้งาน Tailwind CSS v4 ตัวจริงที่ถูกต้องสำหรับคุมดีไซน์ดาร์กโหมด -->
     <script src="https://jsdelivr.net"></script>
 </head>
 <body class="bg-[#0A0A0A] text-gray-100 font-sans antialiased selection:bg-[#E25C24] selection:text-white">
@@ -84,7 +83,7 @@
         </div>
     </section>
 
-    <!-- INTERACTIVE POP-UP MODAL (หน้าต่างดูป๊อปอัปผลงาน) -->
+    <!-- INTERACTIVE POP-UP MODAL -->
     <div id="interactive-modal" class="fixed inset-0 bg-black/90 backdrop-blur-xl z-50 hidden flex items-center justify-center p-4 transition-all duration-300">
         <div class="bg-[#141414] w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl border border-gray-800 flex flex-col md:flex-row h-[85vh] md:h-[60vh]">
             <div class="w-full md:w-3/5 bg-black flex items-center justify-center relative p-4 h-1/2 md:h-full">
@@ -108,7 +107,6 @@
         </div>
     </div>
 
-    <!-- สคริปต์ควบคุมการดึงข้อมูลและระบบ Interactive ขยับได้ทั้งหมด -->
     <script>
         async function loadPortfolio() {
             try {
@@ -133,42 +131,5 @@
                                     <h3 class="text-xl font-bold text-white mb-2 group-hover:text-[#E25C24] transition">${project.title}</h3>
                                     <p class="text-gray-400 text-xs leading-relaxed font-light line-clamp-2">${project.description}</p>
                                 </div>
-                            <div class="px-6 pb-6 md:px-8 md:pb-8 text-right text-xs text-[#E25C24] font-medium group-hover:translate-x-1 transition duration-200">
-                                คลิกเพื่อเปิดอ่านรายละเอียดงาน →
                             </div>
-                        </div>
-                    `;
-                }).join('');
-            } catch (error) {
-                console.error('Error loading data:', error);
-            }
-        }
-
-        function openInteractiveModal(projectJsonString) {
-            const project = JSON.parse(decodeURIComponent(projectJsonString));
-            document.getElementById('modal-project-title').innerText = project.title;
-            document.getElementById('modal-project-cat').innerText = project.category;
-            document.getElementById('modal-project-desc').innerText = project.description;
-            document.getElementById('modal-active-img').src = project.image_url;
-            document.getElementById('modal-pdf-btn').href = project.pdf_url;
-
-            document.getElementById('interactive-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeModal() {
-            document.getElementById('interactive-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
-        }
-
-        document.querySelectorAll('.onerror-replace').forEach(img => {
-            img.onerror = function() {
-                this.style.display = 'none';
-                this.parentElement.innerHTML = '<span class="text-6xl">👨‍💻</span>';
-            };
-        });
-
-        loadPortfolio();
-    </script>
-</body>
-</html>
+                            <div class="px-6 pb-6 md:px-8 md:pb-8 text-right text-xs text-[#E25C24] font-medium group-hover:translate-x-1 transition duration-200">
