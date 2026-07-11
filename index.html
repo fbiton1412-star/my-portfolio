@@ -110,7 +110,7 @@
     <script>
         async function loadPortfolio() {
             try {
-                const response = await fetch('projects.json');
+                const response = await fetch('./projects.json');
                 const projects = await response.json();
                 const grid = document.getElementById('portfolio-grid');
                 
