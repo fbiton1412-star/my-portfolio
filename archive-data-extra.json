@@ -1,0 +1,80 @@
+[
+  {
+    "id":"re-print-vinyl",
+    "title":"Construction Vinyl Signage",
+    "category_key":"real-estate",
+    "subcategory":"print-media",
+    "category":"Real Estate · Print Media",
+    "description":"Selected large-format vinyl signage for construction sites, project communication and regional brand presence.",
+    "image_url":"https://drive.google.com/thumbnail?id=1lt-EFfgYlCofCekXIBB8mpMhaRURLyMH&sz=w1600",
+    "gallery":[
+      "https://drive.google.com/thumbnail?id=1lt-EFfgYlCofCekXIBB8mpMhaRURLyMH&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1z4NQyHzPhcSU-UFgKx_oAIoXa1kXD6e7&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1uZYNFsWwykasuvqkY3AjPOgh-O-oX5zA&sz=w2000",
+      "https://drive.google.com/thumbnail?id=19XyL7xPfCSF489Clf_Y6AfafqErqA9zm&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1I2XbM3ZptEaW78Df4r8eFV-jDO2flltT&sz=w2000"
+    ],
+    "role":"Graphic Designer",
+    "tools":"Illustrator, Photoshop"
+  },
+  {
+    "id":"re-promo-summer-home",
+    "title":"Summer Home Campaign",
+    "category_key":"real-estate",
+    "subcategory":"promotional-design",
+    "category":"Real Estate · Promotional Design",
+    "description":"Seasonal home-building campaign developed as a coordinated visual set across key promotional formats.",
+    "image_url":"https://drive.google.com/thumbnail?id=1fwpoMdsAW6n55IpG143APfq_R2WV0FpW&sz=w1600",
+    "gallery":[
+      "https://drive.google.com/thumbnail?id=1fwpoMdsAW6n55IpG143APfq_R2WV0FpW&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1x86sIHTn5qhchL8bCuUqTpfV4eUGA3nU&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1NPXX_VeTsuomde78egDGut7UXowz3SX5&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1x-TvmP0dvkMrPTrithTjQhmFctwvA-ek&sz=w2000"
+    ],
+    "role":"Graphic Designer",
+    "tools":"Photoshop, Illustrator"
+  },
+  {
+    "id":"re-social-page-covers",
+    "title":"Art Home Regional Page Covers",
+    "category_key":"real-estate",
+    "subcategory":"social-media-design",
+    "category":"Real Estate · Social Media Design",
+    "description":"Facebook page-cover system adapted for multiple regions while maintaining a consistent Art Home brand language.",
+    "image_url":"https://drive.google.com/thumbnail?id=1jLMWf3QFvJoGfU_PtE_6oE0znBoUSyAm&sz=w1600",
+    "gallery":[
+      "https://drive.google.com/thumbnail?id=1jLMWf3QFvJoGfU_PtE_6oE0znBoUSyAm&sz=w2000",
+      "https://drive.google.com/thumbnail?id=16ttrcXotYFq5cz5kzm6Tv5GTpqk_PFLx&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1jcEskqCpxhYu7Q7UzxIyQxD3sY8VH4yL&sz=w2000",
+      "https://drive.google.com/thumbnail?id=12oPJ_6qV3ozhGN9xZbeqkwFUDfJBQtkU&sz=w2000"
+    ],
+    "role":"Graphic Designer",
+    "tools":"Photoshop, Illustrator"
+  },
+  {
+    "id":"re-video-construction-update",
+    "title":"Construction Update Reel",
+    "category_key":"real-estate",
+    "subcategory":"video-production",
+    "category":"Real Estate · Video Production",
+    "description":"Short-form construction progress content combining field footage, editing rhythm and clear project communication.",
+    "image_url":"https://drive.google.com/thumbnail?id=1wTM5nZ0sbgZbIo9N_8V0Cti_4unVJgb4&sz=w1600",
+    "video_url":"https://drive.google.com/file/d/1wTM5nZ0sbgZbIo9N_8V0Cti_4unVJgb4/view",
+    "video_embed_url":"https://drive.google.com/file/d/1wTM5nZ0sbgZbIo9N_8V0Cti_4unVJgb4/preview",
+    "role":"Video Editor / Content Production",
+    "tools":"Premiere Pro, After Effects, Photography, Drone"
+  },
+  {
+    "id":"re-video-home-delivery",
+    "title":"Home Delivery Story Reel",
+    "category_key":"real-estate",
+    "subcategory":"video-production",
+    "category":"Real Estate · Video Production",
+    "description":"Client-facing home-delivery content focused on storytelling, emotional pacing and real project presentation.",
+    "image_url":"https://drive.google.com/thumbnail?id=1YkKHIZuN9UMaFUDCWHvrtTqr087fEbw3&sz=w1600",
+    "video_url":"https://drive.google.com/file/d/1YkKHIZuN9UMaFUDCWHvrtTqr087fEbw3/view",
+    "video_embed_url":"https://drive.google.com/file/d/1YkKHIZuN9UMaFUDCWHvrtTqr087fEbw3/preview",
+    "role":"Video Editor / Content Production",
+    "tools":"Premiere Pro, After Effects, Photography"
+  }
+]
