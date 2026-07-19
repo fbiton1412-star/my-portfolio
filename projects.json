@@ -1,46 +1,76 @@
 [
   {
     "id": 1,
+    "slug": "real-estate-creative",
     "title": "Real Estate Creative",
     "category": "Featured Case Study",
     "description": "รวมงานอสังหาริมทรัพย์แบบครบวงจร ตั้งแต่ Social Media Design, Campaign, Print Media, Photography ไปจนถึง Video Production เพื่อสะท้อนประสบการณ์ทำงานจริงและการคิดภาพรวมของแบรนด์",
     "image_url": "",
     "size": "big",
-    "gradient": "gradient-1"
+    "gradient": "gradient-1",
+    "role": "Graphic Designer / Video Editor / Photographer",
+    "year": "2025–2026",
+    "tools": "Photoshop, Illustrator, Premiere Pro, After Effects, Camera, Drone",
+    "overview": "โปรเจกต์นี้แสดงบทบาทการทำงานจริงแบบรอบด้านสำหรับธุรกิจรับสร้างบ้าน ตั้งแต่การคิดภาพ Campaign และออกแบบสื่อ Social ไปจนถึงงานพิมพ์ ภาพถ่ายบ้าน วิดีโอหน้างาน และการเล่าเรื่องเพื่อการขาย",
+    "process": "เริ่มจากวิเคราะห์จุดขายและวัตถุประสงค์ของแต่ละชิ้นงาน วาง Visual Direction ให้สอดคล้องกับแบรนด์ จากนั้นผลิตสื่อหลายรูปแบบให้สามารถใช้งานร่วมกันทั้ง Online และ Offline พร้อมปรับงานตามบริบทของแต่ละ Campaign"
   },
   {
     "id": 2,
+    "slug": "lamborghini-poster",
     "title": "Lamborghini Poster",
     "category": "Graphic Design",
     "description": "งาน Poster Design ที่เน้นพลังของภาพ การจัดวาง Typography และความรู้สึกแบบ Contemporary Automotive Visual",
     "image_url": "lambo cover.jpg",
-    "size": "med"
+    "size": "med",
+    "role": "Graphic Designer",
+    "year": "2025",
+    "tools": "Adobe Photoshop, Adobe Illustrator",
+    "overview": "งานทดลองด้าน Automotive Visual ที่ใช้ Contrast, Scale และ Typography เพื่อสร้างความรู้สึกเร็ว ดุดัน และพรีเมียม โดยให้ตัวรถเป็น Hero ขององค์ประกอบ",
+    "process": "วาง Composition จากจุดเด่นของตัวรถ กำหนดลำดับสายตาด้วย Typography และพื้นที่ว่าง จากนั้นปรับ Color Grading, Lighting และรายละเอียดของพื้นหลังเพื่อรวมทุกองค์ประกอบให้เป็นภาพเดียวกัน"
   },
   {
     "id": 3,
+    "slug": "sirindhorn-astronomy-park",
     "title": "Sirindhorn Astronomy Park",
     "category": "Motion Graphics 2D",
     "description": "โปรเจกต์ Motion Graphics เชิงการศึกษา ถ่ายทอดข้อมูลดาราศาสตร์ผ่าน Storytelling, Character และ Visual Communication ที่เข้าใจง่าย",
     "image_url": "",
     "size": "small",
-    "gradient": "gradient-2"
+    "gradient": "gradient-2",
+    "role": "Motion Designer / Storyboard / Visual Development",
+    "year": "2025",
+    "tools": "After Effects, Illustrator, Premiere Pro",
+    "overview": "Motion Graphics เพื่อส่งเสริมการเรียนรู้และประชาสัมพันธ์อุทยานดาราศาสตร์สิรินธร โดยออกแบบให้ข้อมูลวิทยาศาสตร์เข้าถึงง่ายผ่านตัวละคร การเล่าเรื่อง และภาพเคลื่อนไหว 2D",
+    "process": "พัฒนาเนื้อหาและลำดับการเล่าเรื่องก่อนทำ Storyboard จากนั้นออกแบบ Character และ Visual Assets แยกเป็นฉาก แล้วนำไป Animate, Composite, ใส่เสียง และปรับ Timing ให้เหมาะกับผู้ชมเป้าหมาย"
   },
   {
     "id": 4,
+    "slug": "golden-hour-studies",
     "title": "Golden Hour Studies",
     "category": "Photography",
     "description": "ชุดภาพถ่ายที่สำรวจแสงอุ่น Silhouette และบรรยากาศช่วง Golden Hour เพื่อแสดงมุมมองด้าน Composition และ Mood",
     "image_url": "",
     "size": "small",
-    "gradient": "gradient-3"
+    "gradient": "gradient-3",
+    "role": "Photographer / Retouch",
+    "year": "2024–2026",
+    "tools": "Camera, Lightroom, Photoshop",
+    "overview": "ชุดภาพที่เน้นการสังเกตธรรมชาติของแสงในช่วง Golden Hour ทั้ง Silhouette, Backlight และ Reflection เพื่อถ่ายทอดบรรยากาศผ่านการจัดองค์ประกอบมากกว่าการจัดฉาก",
+    "process": "เลือกช่วงเวลาและมุมที่แสงสร้าง Layer ได้ชัด วัดแสงเพื่อรักษา Highlight และเงา จากนั้นคัดภาพและปรับโทนอย่างระมัดระวังเพื่อคงความรู้สึกเป็นธรรมชาติของสถานที่"
   },
   {
     "id": 5,
+    "slug": "product-poster-design",
     "title": "Product & Poster Design",
     "category": "Graphic Design",
     "description": "รวมงาน Product Visual และ Poster เช่น Frawer, COCO, CeraVe, Food & Beverage และงานทดลองด้าน Branding Visual",
     "image_url": "",
     "size": "small",
-    "gradient": "gradient-1"
+    "gradient": "gradient-1",
+    "role": "Graphic Designer / Visual Designer",
+    "year": "2024–2026",
+    "tools": "Photoshop, Illustrator",
+    "overview": "ชุดงานกราฟิกที่แสดงการปรับ Visual Language ให้เหมาะกับสินค้าหลายประเภท ตั้งแต่น้ำหอม เครื่องสำอาง อาหาร เครื่องดื่ม ไปจนถึงงาน Branding ทดลอง",
+    "process": "กำหนด Key Visual ให้สอดคล้องกับบุคลิกสินค้า วาง Hierarchy ของข้อมูลและ Typography แล้วพัฒนา Lighting, Texture และ Composition เพื่อทำให้สินค้าดูโดดเด่นและพร้อมใช้ในงานสื่อสารการตลาด"
   }
 ]
