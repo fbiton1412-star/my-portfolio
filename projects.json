@@ -1,10 +1,46 @@
 [
   {
     "id": 1,
-    "title": "Lamborghini Aventador SVJ Graphics & Design",
-    "category": "Graphic & UI/UX Design",
-    "description": "ผลงานโปรเจกต์รวบรวมเคสสตัดี้และการออกแบบ Layout สไตล์ Modern Automotive คุมโทนสีฟ้า-ขาวสะดุดตา เพื่อประสบการณ์การรับชมดิจิทัลโปรดักส์ที่เหนือระดับ",
+    "title": "Real Estate Creative",
+    "category": "Featured Case Study",
+    "description": "รวมงานอสังหาริมทรัพย์แบบครบวงจร ตั้งแต่ Social Media Design, Campaign, Print Media, Photography ไปจนถึง Video Production เพื่อสะท้อนประสบการณ์ทำงานจริงและการคิดภาพรวมของแบรนด์",
+    "image_url": "",
+    "size": "big",
+    "gradient": "gradient-1"
+  },
+  {
+    "id": 2,
+    "title": "Lamborghini Poster",
+    "category": "Graphic Design",
+    "description": "งาน Poster Design ที่เน้นพลังของภาพ การจัดวาง Typography และความรู้สึกแบบ Contemporary Automotive Visual",
     "image_url": "lambo cover.jpg",
-    "pdf_url": "uiux-project.pdf"
+    "size": "med"
+  },
+  {
+    "id": 3,
+    "title": "Sirindhorn Astronomy Park",
+    "category": "Motion Graphics 2D",
+    "description": "โปรเจกต์ Motion Graphics เชิงการศึกษา ถ่ายทอดข้อมูลดาราศาสตร์ผ่าน Storytelling, Character และ Visual Communication ที่เข้าใจง่าย",
+    "image_url": "",
+    "size": "small",
+    "gradient": "gradient-2"
+  },
+  {
+    "id": 4,
+    "title": "Golden Hour Studies",
+    "category": "Photography",
+    "description": "ชุดภาพถ่ายที่สำรวจแสงอุ่น Silhouette และบรรยากาศช่วง Golden Hour เพื่อแสดงมุมมองด้าน Composition และ Mood",
+    "image_url": "",
+    "size": "small",
+    "gradient": "gradient-3"
+  },
+  {
+    "id": 5,
+    "title": "Product & Poster Design",
+    "category": "Graphic Design",
+    "description": "รวมงาน Product Visual และ Poster เช่น Frawer, COCO, CeraVe, Food & Beverage และงานทดลองด้าน Branding Visual",
+    "image_url": "",
+    "size": "small",
+    "gradient": "gradient-1"
   }
 ]
