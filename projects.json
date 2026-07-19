@@ -25,8 +25,10 @@
     "title": "Lamborghini Poster",
     "category": "Graphic Design",
     "description": "งาน Poster Design ที่เน้นพลังของภาพ การจัดวาง Typography และความรู้สึกแบบ Contemporary Automotive Visual",
-    "image_url": "lambo cover.jpg",
-    "gallery": ["lambo cover.jpg"],
+    "image_url": "https://drive.google.com/thumbnail?id=1TjGj_lVdNwxW268l1bEvy2zjfi6bGHQG&sz=w1600",
+    "gallery": [
+      "https://drive.google.com/thumbnail?id=1TjGj_lVdNwxW268l1bEvy2zjfi6bGHQG&sz=w2000"
+    ],
     "size": "med",
     "role": "Graphic Designer",
     "year": "2025",
@@ -42,6 +44,8 @@
     "description": "โปรเจกต์ Motion Graphics เชิงการศึกษา ถ่ายทอดข้อมูลดาราศาสตร์ผ่าน Storytelling, Character และ Visual Communication ที่เข้าใจง่าย",
     "image_url": "https://drive.google.com/thumbnail?id=1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz&sz=w1600",
     "video_url": "https://drive.google.com/file/d/1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz/view",
+    "video_embed_url": "https://drive.google.com/file/d/1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz/preview",
+    "media_type": "video",
     "size": "small",
     "gradient": "gradient-2",
     "role": "Motion Designer / Storyboard / Visual Designer",
