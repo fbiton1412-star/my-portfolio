@@ -5,14 +5,14 @@
     "title": "Real Estate Creative",
     "category": "Featured Case Study",
     "description": "รวมงานอสังหาริมทรัพย์แบบครบวงจร ตั้งแต่ Social Media Design, Campaign, Print Media, Photography ไปจนถึง Video Production เพื่อสะท้อนประสบการณ์ทำงานจริงและการคิดภาพรวมของแบรนด์",
-    "image_url": "",
+    "image_url": "https://drive.google.com/thumbnail?id=1B629kMkTaG_xXCVDzPV_eohegNIoxq8e&sz=w1600",
     "size": "big",
     "gradient": "gradient-1",
     "role": "Graphic Designer / Video Editor / Photographer",
     "year": "2025–2026",
-    "tools": "Photoshop, Illustrator, Premiere Pro, After Effects, Camera, Drone",
-    "overview": "โปรเจกต์นี้แสดงบทบาทการทำงานจริงแบบรอบด้านสำหรับธุรกิจรับสร้างบ้าน ตั้งแต่การคิดภาพ Campaign และออกแบบสื่อ Social ไปจนถึงงานพิมพ์ ภาพถ่ายบ้าน วิดีโอหน้างาน และการเล่าเรื่องเพื่อการขาย",
-    "process": "เริ่มจากวิเคราะห์จุดขายและวัตถุประสงค์ของแต่ละชิ้นงาน วาง Visual Direction ให้สอดคล้องกับแบรนด์ จากนั้นผลิตสื่อหลายรูปแบบให้สามารถใช้งานร่วมกันทั้ง Online และ Offline พร้อมปรับงานตามบริบทของแต่ละ Campaign"
+    "tools": "Photoshop, Illustrator, Premiere Pro, After Effects, Photography, Drone",
+    "overview": "งานประสบการณ์จริงในสายอสังหาริมทรัพย์ที่ครอบคลุมการออกแบบสื่อการตลาดทั้งออนไลน์และออฟไลน์ การถ่ายภาพบ้าน การผลิตวิดีโอ และการสร้างภาพลักษณ์ที่สอดคล้องกันในหลายช่องทาง",
+    "process": "เริ่มจากทำความเข้าใจจุดขายของบ้านและกลุ่มลูกค้า วาง Key Visual และลำดับข้อความ จากนั้นพัฒนาเป็น Social Media, Promotion, Print และ Video พร้อมปรับรูปแบบให้เหมาะกับแต่ละแพลตฟอร์ม"
   },
   {
     "id": 2,
@@ -24,9 +24,9 @@
     "size": "med",
     "role": "Graphic Designer",
     "year": "2025",
-    "tools": "Adobe Photoshop, Adobe Illustrator",
-    "overview": "งานทดลองด้าน Automotive Visual ที่ใช้ Contrast, Scale และ Typography เพื่อสร้างความรู้สึกเร็ว ดุดัน และพรีเมียม โดยให้ตัวรถเป็น Hero ขององค์ประกอบ",
-    "process": "วาง Composition จากจุดเด่นของตัวรถ กำหนดลำดับสายตาด้วย Typography และพื้นที่ว่าง จากนั้นปรับ Color Grading, Lighting และรายละเอียดของพื้นหลังเพื่อรวมทุกองค์ประกอบให้เป็นภาพเดียวกัน"
+    "tools": "Adobe Photoshop",
+    "overview": "งานทดลองด้าน Visual Direction สำหรับ Automotive Poster เน้น Contrast, Scale และ Typography เพื่อสร้างภาพที่มีพลังและดึงสายตา",
+    "process": "คัดภาพหลัก วางโครงสร้างภาพแบบ Editorial Poster กำหนด Hierarchy ของข้อความ แล้วปรับแสง สี และรายละเอียดให้รถเป็นจุดเด่นที่สุด"
   },
   {
     "id": 3,
@@ -34,14 +34,14 @@
     "title": "Sirindhorn Astronomy Park",
     "category": "Motion Graphics 2D",
     "description": "โปรเจกต์ Motion Graphics เชิงการศึกษา ถ่ายทอดข้อมูลดาราศาสตร์ผ่าน Storytelling, Character และ Visual Communication ที่เข้าใจง่าย",
-    "image_url": "",
+    "image_url": "https://drive.google.com/thumbnail?id=1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz&sz=w1600",
     "size": "small",
     "gradient": "gradient-2",
-    "role": "Motion Designer / Storyboard / Visual Development",
+    "role": "Motion Designer / Storyboard / Visual Designer",
     "year": "2025",
     "tools": "After Effects, Illustrator, Premiere Pro",
-    "overview": "Motion Graphics เพื่อส่งเสริมการเรียนรู้และประชาสัมพันธ์อุทยานดาราศาสตร์สิรินธร โดยออกแบบให้ข้อมูลวิทยาศาสตร์เข้าถึงง่ายผ่านตัวละคร การเล่าเรื่อง และภาพเคลื่อนไหว 2D",
-    "process": "พัฒนาเนื้อหาและลำดับการเล่าเรื่องก่อนทำ Storyboard จากนั้นออกแบบ Character และ Visual Assets แยกเป็นฉาก แล้วนำไป Animate, Composite, ใส่เสียง และปรับ Timing ให้เหมาะกับผู้ชมเป้าหมาย"
+    "overview": "Motion Graphics เพื่อส่งเสริมการเรียนรู้เกี่ยวกับอุทยานดาราศาสตร์สิรินธร โดยใช้ตัวละครและการเล่าเรื่องช่วยทำให้ข้อมูลเชิงวิทยาศาสตร์เข้าถึงง่ายขึ้น",
+    "process": "วางข้อมูลและ Story Structure ก่อนพัฒนา Storyboard, Character, Scene Design และ Animation จากนั้นตัดต่อและปรับจังหวะให้เหมาะกับผู้ชมกลุ่มนักเรียน"
   },
   {
     "id": 4,
@@ -49,14 +49,14 @@
     "title": "Golden Hour Studies",
     "category": "Photography",
     "description": "ชุดภาพถ่ายที่สำรวจแสงอุ่น Silhouette และบรรยากาศช่วง Golden Hour เพื่อแสดงมุมมองด้าน Composition และ Mood",
-    "image_url": "",
+    "image_url": "https://drive.google.com/thumbnail?id=1VY9sG8DjXgsZ2Hb4wX6RNc7cUhFgb6ax&sz=w1600",
     "size": "small",
     "gradient": "gradient-3",
-    "role": "Photographer / Retouch",
-    "year": "2024–2026",
-    "tools": "Camera, Lightroom, Photoshop",
-    "overview": "ชุดภาพที่เน้นการสังเกตธรรมชาติของแสงในช่วง Golden Hour ทั้ง Silhouette, Backlight และ Reflection เพื่อถ่ายทอดบรรยากาศผ่านการจัดองค์ประกอบมากกว่าการจัดฉาก",
-    "process": "เลือกช่วงเวลาและมุมที่แสงสร้าง Layer ได้ชัด วัดแสงเพื่อรักษา Highlight และเงา จากนั้นคัดภาพและปรับโทนอย่างระมัดระวังเพื่อคงความรู้สึกเป็นธรรมชาติของสถานที่"
+    "role": "Photographer",
+    "year": "Selected Works",
+    "tools": "Photography, Lightroom / Photoshop",
+    "overview": "ชุดภาพส่วนตัวที่เน้นการสังเกตแสงธรรมชาติ เงา Silhouette และความสัมพันธ์ระหว่างตัวแบบกับบรรยากาศรอบตัว",
+    "process": "เลือกช่วงเวลาที่แสงมีคุณภาพ วาง Composition ให้แสงเป็นส่วนหนึ่งของเรื่องราว และปรับโทนอย่างพอดีเพื่อรักษาความรู้สึกธรรมชาติของภาพ"
   },
   {
     "id": 5,
@@ -64,13 +64,13 @@
     "title": "Product & Poster Design",
     "category": "Graphic Design",
     "description": "รวมงาน Product Visual และ Poster เช่น Frawer, COCO, CeraVe, Food & Beverage และงานทดลองด้าน Branding Visual",
-    "image_url": "",
+    "image_url": "https://drive.google.com/thumbnail?id=1I8k0y6bZ6wdlfpnbiDEaJArP8Gz_Us0f&sz=w1600",
     "size": "small",
     "gradient": "gradient-1",
-    "role": "Graphic Designer / Visual Designer",
+    "role": "Graphic Designer",
     "year": "2024–2026",
     "tools": "Photoshop, Illustrator",
-    "overview": "ชุดงานกราฟิกที่แสดงการปรับ Visual Language ให้เหมาะกับสินค้าหลายประเภท ตั้งแต่น้ำหอม เครื่องสำอาง อาหาร เครื่องดื่ม ไปจนถึงงาน Branding ทดลอง",
-    "process": "กำหนด Key Visual ให้สอดคล้องกับบุคลิกสินค้า วาง Hierarchy ของข้อมูลและ Typography แล้วพัฒนา Lighting, Texture และ Composition เพื่อทำให้สินค้าดูโดดเด่นและพร้อมใช้ในงานสื่อสารการตลาด"
+    "overview": "คอลเลกชันงานออกแบบภาพโฆษณาและ Product Visual ที่ทดลองหลาย Mood ตั้งแต่งานน้ำหอม เครื่องสำอาง อาหาร เครื่องดื่ม ไปจนถึง Branding Concept",
+    "process": "แต่ละชิ้นเริ่มจากกำหนด Mood, Audience และจุดขายของสินค้า จากนั้นวาง Composition, Typography, Retouching และ Lighting เพื่อสร้างภาพที่สื่อบุคลิกของสินค้าได้ชัดเจน"
   }
 ]
