@@ -6,6 +6,11 @@
     "category": "Featured Case Study",
     "description": "รวมงานอสังหาริมทรัพย์แบบครบวงจร ตั้งแต่ Social Media Design, Campaign, Print Media, Photography ไปจนถึง Video Production เพื่อสะท้อนประสบการณ์ทำงานจริงและการคิดภาพรวมของแบรนด์",
     "image_url": "https://drive.google.com/thumbnail?id=1B629kMkTaG_xXCVDzPV_eohegNIoxq8e&sz=w1600",
+    "gallery": [
+      "https://drive.google.com/thumbnail?id=1B629kMkTaG_xXCVDzPV_eohegNIoxq8e&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1-KVXynEj917LlDcAuhJ5WwSX2zHgsmXn&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1M0EBdoC-lHYBhB8eSn3GzmWUxHvdfwa9&sz=w2000"
+    ],
     "size": "big",
     "gradient": "gradient-1",
     "role": "Graphic Designer / Video Editor / Photographer",
@@ -21,6 +26,7 @@
     "category": "Graphic Design",
     "description": "งาน Poster Design ที่เน้นพลังของภาพ การจัดวาง Typography และความรู้สึกแบบ Contemporary Automotive Visual",
     "image_url": "lambo cover.jpg",
+    "gallery": ["lambo cover.jpg"],
     "size": "med",
     "role": "Graphic Designer",
     "year": "2025",
@@ -35,6 +41,7 @@
     "category": "Motion Graphics 2D",
     "description": "โปรเจกต์ Motion Graphics เชิงการศึกษา ถ่ายทอดข้อมูลดาราศาสตร์ผ่าน Storytelling, Character และ Visual Communication ที่เข้าใจง่าย",
     "image_url": "https://drive.google.com/thumbnail?id=1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz&sz=w1600",
+    "video_url": "https://drive.google.com/file/d/1jlT0rP6C9MqfmgsT-p1KeesLLFwhBPFz/view",
     "size": "small",
     "gradient": "gradient-2",
     "role": "Motion Designer / Storyboard / Visual Designer",
@@ -50,6 +57,12 @@
     "category": "Photography",
     "description": "ชุดภาพถ่ายที่สำรวจแสงอุ่น Silhouette และบรรยากาศช่วง Golden Hour เพื่อแสดงมุมมองด้าน Composition และ Mood",
     "image_url": "https://drive.google.com/thumbnail?id=1VY9sG8DjXgsZ2Hb4wX6RNc7cUhFgb6ax&sz=w1600",
+    "gallery": [
+      "https://drive.google.com/thumbnail?id=1VY9sG8DjXgsZ2Hb4wX6RNc7cUhFgb6ax&sz=w2000",
+      "https://drive.google.com/thumbnail?id=18zOHkPrSu9pW2wZFeRBk4jPtr_Wv_gPD&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1-QqGd82y72lsoLLIfQzVxUrm3RuzxDdV&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1r5UpOYcQUqgaJFg9fhMQsX9ndX--1TwG&sz=w2000"
+    ],
     "size": "small",
     "gradient": "gradient-3",
     "role": "Photographer",
@@ -65,6 +78,12 @@
     "category": "Graphic Design",
     "description": "รวมงาน Product Visual และ Poster เช่น Frawer, COCO, CeraVe, Food & Beverage และงานทดลองด้าน Branding Visual",
     "image_url": "https://drive.google.com/thumbnail?id=1I8k0y6bZ6wdlfpnbiDEaJArP8Gz_Us0f&sz=w1600",
+    "gallery": [
+      "https://drive.google.com/thumbnail?id=1I8k0y6bZ6wdlfpnbiDEaJArP8Gz_Us0f&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1raScSn4KLsvwS-WoppYYRkAKI-oIditr&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1oeDZD3_6LtFIEK4FsD-EzexORpg0tt6Q&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1kxudfSp-qSlg2up8z6Q9HFIpDGyY-Qlh&sz=w2000"
+    ],
     "size": "small",
     "gradient": "gradient-1",
     "role": "Graphic Designer",
