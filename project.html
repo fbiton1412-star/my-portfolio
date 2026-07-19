@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Case Study</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html{scroll-behavior:smooth}.reveal{opacity:0;transform:translateY(28px);transition:.7s ease}.reveal.show{opacity:1;transform:none}
+  </style>
+</head>
+<body class="bg-[#0A0A0A] text-white antialiased selection:bg-orange-500 selection:text-white">
+  <nav class="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-black/60 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="text-sm font-semibold tracking-[0.18em] uppercase">Kreangkrai</a>
+      <a href="index.html#work" class="text-xs uppercase tracking-[0.18em] text-white/60 hover:text-white transition">← Back to work</a>
+    </div>
+  </nav>
+
+  <main id="app" class="pt-16"></main>
+
+  <template id="not-found">
+    <section class="min-h-[80vh] flex items-center justify-center px-6 text-center">
+      <div>
+        <p class="text-orange-400 text-xs uppercase tracking-[0.2em]">Project not found</p>
+        <h1 class="text-4xl md:text-6xl font-black mt-4">ยังไม่พบโปรเจกต์นี้</h1>
+        <a href="index.html" class="inline-block mt-8 px-6 py-3 rounded-full border border-white/20 hover:border-white transition">กลับหน้าแรก</a>
+      </div>
+    </section>
+  </template>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('project');
+
+    function fallbackVisual(project){
+      const label = project.category || 'Selected Work';
+      return `<div class="aspect-[16/10] rounded-[2rem] border border-white/10 bg-gradient-to-br from-zinc-800 via-zinc-950 to-black overflow-hidden flex items-end p-8 md:p-12">
+        <div><p class="text-xs uppercase tracking-[0.22em] text-orange-400">${label}</p><p class="text-3xl md:text-6xl font-black mt-3">${project.title}</p></div>
+      </div>`;
+    }
+
+    function renderProject(project, projects){
+      document.title = `${project.title} — Kreangkrai Portfolio`;
+      const nextIndex = (projects.findIndex(p => (p.slug || String(p.id)) === (project.slug || String(project.id))) + 1) % projects.length;
+      const next = projects[nextIndex];
+      const role = project.role || 'Visual Design / Creative Production';
+      const tools = project.tools || 'Adobe Creative Cloud';
+      const year = project.year || '2026';
+      const overview = project.overview || project.description || 'Selected creative work from my multidisciplinary design portfolio.';
+      const process = project.process || 'Concept direction, visual development, production, refinement and final delivery.';
+      const image = project.image_url && project.image_url !== 'placeholder' ? `<div class="aspect-[16/10] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-900"><img src="${project.image_url}" alt="${project.title}" class="w-full h-full object-cover" onerror="this.parentElement.outerHTML = window.__fallback"></div>` : fallbackVisual(project);
+      window.__fallback = fallbackVisual(project).replace(/`/g,'');
+
+      document.getElementById('app').innerHTML = `
+        <section class="max-w-7xl mx-auto px-6 pt-16 md:pt-24 pb-12 reveal">
+          <div class="grid md:grid-cols-12 gap-8 items-end">
+            <div class="md:col-span-8">
+              <p class="text-orange-400 text-xs uppercase tracking-[0.22em]">${project.category || 'Selected Work'}</p>
+              <h1 class="text-5xl md:text-8xl font-black leading-[0.92] tracking-tight mt-5">${project.title}</h1>
+            </div>
+            <div class="md:col-span-4 md:pb-2">
+              <p class="text-white/55 leading-relaxed">${project.description || overview}</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-6 reveal">${image}</section>
+
+        <section class="max-w-7xl mx-auto px-6 py-20 md:py-28 reveal">
+          <div class="grid md:grid-cols-12 gap-10">
+            <div class="md:col-span-4 grid grid-cols-2 gap-6 text-sm self-start">
+              <div><p class="text-white/35 uppercase text-[10px] tracking-[0.18em]">Role</p><p class="mt-2 text-white/80">${role}</p></div>
+              <div><p class="text-white/35 uppercase text-[10px] tracking-[0.18em]">Year</p><p class="mt-2 text-white/80">${year}</p></div>
+              <div class="col-span-2"><p class="text-white/35 uppercase text-[10px] tracking-[0.18em]">Tools</p><p class="mt-2 text-white/80">${tools}</p></div>
+            </div>
+            <div class="md:col-span-7 md:col-start-6">
+              <p class="text-xs uppercase tracking-[0.22em] text-orange-400">Overview</p>
+              <p class="text-2xl md:text-4xl leading-tight font-semibold mt-5">${overview}</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="border-y border-white/10 bg-white/[0.025] reveal">
+          <div class="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-12 gap-10">
+            <div class="md:col-span-4"><p class="text-xs uppercase tracking-[0.22em] text-orange-400">Process</p><h2 class="text-4xl md:text-6xl font-black mt-4">How the work was built.</h2></div>
+            <div class="md:col-span-6 md:col-start-7"><p class="text-lg md:text-2xl text-white/65 leading-relaxed">${process}</p></div>
+          </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-6 py-24 md:py-32 reveal">
+          <p class="text-xs uppercase tracking-[0.22em] text-white/35">Next project</p>
+          <a href="project.html?project=${encodeURIComponent(next.slug || next.id)}" class="group block mt-6">
+            <div class="flex justify-between gap-8 items-end border-b border-white/15 pb-8 group-hover:border-orange-400 transition">
+              <h2 class="text-4xl md:text-7xl font-black tracking-tight">${next.title}</h2>
+              <span class="text-3xl group-hover:translate-x-2 transition">→</span>
+            </div>
+          </a>
+        </section>
+      `;
+
+      requestAnimationFrame(()=>document.querySelectorAll('.reveal').forEach((el,i)=>setTimeout(()=>el.classList.add('show'),i*90)));
+    }
+
+    fetch('./projects.json')
+      .then(r => r.json())
+      .then(projects => {
+        const project = projects.find(p => (p.slug || String(p.id)) === slug) || projects[0];
+        if (!project) return document.getElementById('app').append(document.getElementById('not-found').content.cloneNode(true));
+        renderProject(project, projects);
+      })
+      .catch(() => document.getElementById('app').append(document.getElementById('not-found').content.cloneNode(true)));
+  </script>
+</body>
+</html>
