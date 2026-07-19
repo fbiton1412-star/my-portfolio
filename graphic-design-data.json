@@ -1,0 +1,41 @@
+[
+  {
+    "id":"graphic-food-beverage",
+    "title":"Food & Beverage Poster Series",
+    "category_key":"graphic-design",
+    "category":"Graphic Design · Food & Beverage",
+    "description":"A curated set of food and beverage poster experiments covering burger, cake, salad and restaurant visuals with distinct product-focused art direction.",
+    "image_url":"https://drive.google.com/thumbnail?id=1w7fkItgUIeVngz1PfsJys3EBXWuyN7VA&sz=w1600",
+    "gallery":[
+      "https://drive.google.com/thumbnail?id=1w7fkItgUIeVngz1PfsJys3EBXWuyN7VA&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1vgh2g9zHhkUFi_upechgLXcPPj1zgfwK&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1klPZQ9neVUWnt5i2bCIJZX79WWkUfamS&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1ECTCtUw_a5IatVocrUTZNvhbtLjao1mf&sz=w2000",
+      "https://drive.google.com/thumbnail?id=1b3iHWP5S71w2QfuNtMYy4B6Eydd27efG&sz=w2000"
+    ],
+    "role":"Graphic Designer",
+    "tools":"Adobe Photoshop, Adobe Illustrator"
+  },
+  {
+    "id":"graphic-vitamins",
+    "title":"Vitamins Product Poster",
+    "category_key":"graphic-design",
+    "category":"Graphic Design · Product Visual",
+    "description":"Product advertising visual focused on clean hierarchy, benefit communication and commercial composition.",
+    "image_url":"https://drive.google.com/thumbnail?id=1NjlzYVNYIvpXtpj36Nwf9Y-tAKyaECKI&sz=w1600",
+    "gallery":["https://drive.google.com/thumbnail?id=1NjlzYVNYIvpXtpj36Nwf9Y-tAKyaECKI&sz=w2000"],
+    "role":"Graphic Designer",
+    "tools":"Adobe Photoshop, Adobe Illustrator"
+  },
+  {
+    "id":"graphic-trekz",
+    "title":"Trekz Brand Concept",
+    "category_key":"graphic-design",
+    "category":"Graphic Design · Branding Concept",
+    "description":"A bold sports and lifestyle branding exploration built around strong typography, product attitude and energetic visual direction.",
+    "image_url":"https://drive.google.com/thumbnail?id=1C5wminJKSMGYJaHS0ZBaWk1Y1SqjIM2J&sz=w1600",
+    "gallery":["https://drive.google.com/thumbnail?id=1C5wminJKSMGYJaHS0ZBaWk1Y1SqjIM2J&sz=w2000"],
+    "role":"Graphic Designer / Brand Visual",
+    "tools":"Adobe Photoshop, Adobe Illustrator"
+  }
+]
