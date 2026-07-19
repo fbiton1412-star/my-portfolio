@@ -2,7 +2,7 @@ const params=new URLSearchParams(location.search);let active=params.get('categor
 const categories={
 'all':{title:'All Works',intro:'รวมผลงานทั้งหมดที่คัดและเชื่อมเข้าระบบแล้ว สามารถกรองตามสายงานหลักได้'},
 'real-estate':{title:'Real Estate',intro:'งานอสังหาริมทรัพย์ แยกเป็น Photography, Print Media, Promotional Design, Social Media Design และ Video Production',subs:['all','photography','print-media','promotional-design','social-media-design','video-production']},
-'graphic-design':{title:'Graphic Design',intro:'Poster, Product Visual, Branding Concept และ Promotional Artwork'},
+'graphic-design':{title:'Graphic Design',intro:'Poster, Product Visual, Branding Concept และ Promotional Artwork ที่คัดจากผลงานจริงใน Drive'},
 'motion-2d':{title:'Motion Graphics 2D',intro:'รวมโปรเจกต์ Motion 2D ทั้งหมด พร้อมเข้าไปดู Video Player และรายละเอียดแต่ละงาน'},
 'photography':{title:'Photography',intro:'ผลงานภาพถ่ายส่วนตัว แยกเป็น Cosplay, Golden Hour / Warm Tone, Landscape และ Macro Photography',subs:['all','cosplay','golden-hour','landscape','macro-photography']}
 };
@@ -25,5 +25,11 @@ function render(all){renderFilters(all);const categoryItems=active==='all'?all:a
 Promise.all([
 fetch('./projects.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),
 fetch('./archive-data.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),
-fetch('./real-estate-extra.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[])
-]).then(([projects,archive,extra])=>render([...(Array.isArray(projects)?projects:[]),...(Array.isArray(archive)?archive:[]),...(Array.isArray(extra)?extra:[])]));
+fetch('./real-estate-extra.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]),
+fetch('./graphic-design-data.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[])
+]).then(([projects,archive,realEstateExtra,graphicDesign])=>render([
+...(Array.isArray(projects)?projects:[]),
+...(Array.isArray(archive)?archive:[]),
+...(Array.isArray(realEstateExtra)?realEstateExtra:[]),
+...(Array.isArray(graphicDesign)?graphicDesign:[])
+]));
